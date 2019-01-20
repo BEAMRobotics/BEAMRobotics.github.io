@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="Mobile mapping results">
+		<meta name="author" content="BEAM">
+		<link rel="icon" href="../../favicon.ico">
+
+		<title>BEAM Mobile Mapping</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="potree.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+	<script src="content.js"></script>
+
+		<div class="container">
+		<div class="jumbotron">
+		
+		<h2>Testing browser based viewing of point cloud maps.</h2>
+		<!--<p>-->
+		<!--Testing browser based viewing of point cloud results.-->
+		<!--</p>-->
+
+		<div id="results_container">
+			<div id="ig_container">
+				<h1>IG Maps</h1>
+				<script>includeIGResults();</script>
+			</div>
+
+			<div id="roben_container">
+				<h1>RobEn Maps</h1>
+				<script>includeRobenResults();</script>
+			</div>
+
+			<div id="faro_container">
+				<h1>Faro Maps</h1>
+				<script>includeFaroResults();</script>
+			</div>
+
+		</div>
+
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+		<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
