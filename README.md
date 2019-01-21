@@ -31,8 +31,8 @@ git clone https://github.com/potree/PotreeConverter.git
 cd PotreeConverter
 mkdir build
 cd build
-cmake -DCMAKE_BUILD_TYPE=Release -DLASZIP_INCLUDE_DIRS=~/prog/lastools/LASzip/dll -DLASZIP_LIBRARY=~/prog/lastools/LASzip/build/src/liblaszip.so ..
-make
+cmake -DCMAKE_BUILD_TYPE=Release -DLASZIP_INCLUDE_DIRS=~/prog/LAStools/LASzip/dll -DLASZIP_LIBRARY=~/prog/LAStools/LASzip/build/src/liblaszip.so ..
+make -j8
 ```
 
 ```
