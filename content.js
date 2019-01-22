@@ -6,7 +6,7 @@ let settings = {
 		{"thumb": "potree/results/results_roben/ats/ats.png", "label": "ATS", "url": "ats/ats.html"},
 	],
 	"results_faro": [
-		{"thumb": "potree/results/results_faro/demo_01/demo_01.png", "label": "Demo 01", "url": "demo_01/demo_01.html"},
+		{"thumb": "potree/results/results_faro/ats_faro/ats_faro.png", "label": "ATS (Faro)", "url": "ats_faro/ats_faro.html"},
 	]
 }
 
