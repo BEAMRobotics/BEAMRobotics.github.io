@@ -48,7 +48,7 @@ cd ~/prog/PotreeConverter/build/PotreeConverter
 ```
 
 ### 4) Copying the folders that you generate
-1) Create a folder inside BEAMRobotics.github.io/results/results_ig with a project name for your pointcloud (e.g., demo_01).
+1) Create a folder inside BEAMRobotics.github.io/potree/results/results_ig with a project name for your pointcloud (e.g., demo_01).
 2) Inside the demo_01 folder you will do 3 things:
     - create a "cloud" folder & copy the contents from  ~/path_to_output_folder/pointclouds/project_name into the cloud folder (see existing results to confirm what is inside the "cloud" folder)
     - "demo_01.html": copy the project_name.html from ~/path_to_output_folder
