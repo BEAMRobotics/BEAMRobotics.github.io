@@ -25,11 +25,49 @@
 
 		<div class="container">
 		<div class="jumbotron">
-		
-		<h2>Testing browser based viewing of point cloud maps.</h2>
-		<!--<p>-->
-		<!--Testing browser based viewing of point cloud results.-->
-		<!--</p>-->
+
+		<h2>BEAM Robotics | Map Viewer</h2>
+		<br><br>
+		<h3>Welcome to our online map viewer! Here you will find interacting maps of
+		pervious scans performed by BEAM.
+		<br><br>
+		We have three scanning platforms:
+		<br><br>
+		1. Inspector Gadget (IG) : this is our continuous scanning platform.
+		It continously performs localization and mapping as it drives around for
+	  fastest mapping results and best area coverage. This product is still in
+		early stages of development.
+		<br><br>
+		2. Robot Eng (RobEn) : this is our stop-and-go scanning solution. This robot
+		must stop to take scans (<10s/scan). This scanner is very rapid compared to
+		the Faro but not as quick as IG. The mapping and full colourization of the
+		map is done automatically within minutes of taking the scan. This product is
+		 in its final stages of development.
+		<br><br>
+		3. Faro Focus: We also own a more traditional tripod based laser scanner
+		(often referred to as Terrestrial Laser Scanners). This is the current
+		go-to solution for most land-based laser scanning. These scans are very time
+		consuming and manual data-processing is required after collecting the
+		scans to generate the final maps.
+		<br><br>
+		</h3>
+
+		<!-- <div id="results_container">
+			<div id="ig_container">
+				<h1>IG Maps</h1>
+				<script>includeIGResults();</script>
+			</div>
+
+			<div id="roben_container">
+				<h1>RobEn Maps</h1>
+				<script>includeRobenResults();</script>
+			</div>
+
+			<div id="faro_container">
+				<h1>Faro Maps</h1>
+				<script>includeFaroResults();</script>
+			</div>
+		</div> -->
 
 		<div id="results_container">
 			<div id="ig_container">
@@ -46,7 +84,30 @@
 				<h1>Faro Maps</h1>
 				<script>includeFaroResults();</script>
 			</div>
+		</div>
 
+		<br><br>
+		<h4>Mapping with the Autonomoose</h4>
+
+		<h3>
+		<br><br>
+		We also have some maps generated using data from the University of Waterloo's
+		autonomous vehicle platform, the Autonomoose. This work was done in
+		collaboration with the Waterloo Autonomous Vehicles (WAVE) lab. Specifically,
+		we lead research on filtering snowfall from Lidar scans for autonomous vehicles.
+		We developped a custom de-noising filter to remove snow in real-time without
+		removing important environmental features. This work was published and presented
+		at the Computer and Robot Vision (CRV) conference in 2018 (see paper here).
+		<br><br>
+		</h3>
+
+		<div id="results_container">
+			<div id="ig_container">
+				<script>includeMooseResults1();</script>
+			</div>
+			<div id="roben_container">
+				<script>includeMooseResults2();</script>
+			</div>
 		</div>
 
 		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
