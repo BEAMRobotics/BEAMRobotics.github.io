@@ -5,9 +5,11 @@ let settings = {
 	],
 	"results_roben": [
 		{"thumb": "potree/results/results_roben/ats/ats.png", "label": "ATS", "url": "ats/ats.html"},
+		{"thumb": "potree/results/results_roben/fairway/fairway.jpg", "label": "Fairway Bridge", "url": "fairway/fairway.html"},
+
 	],
 	"results_faro": [
-		{"thumb": "potree/results/results_faro/demo_01/demo_01.png", "label": "Demo 01", "url": "demo_01/demo_01.html"},
+		{"thumb": "potree/results/results_faro/ats_faro/ats_faro.png", "label": "ATS (Faro)", "url": "ats_faro/ats_faro.html"},
 	]
 }
 
