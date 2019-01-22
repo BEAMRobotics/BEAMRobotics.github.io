@@ -1,6 +1,7 @@
 let settings = {
 	"results_ig": [
 		{"thumb": "potree/results/results_ig/demo_01/demo_01.png", "label": "Demo 01", "url": "demo_01/demo_01.html"},
+		{"thumb": "potree/results/results_ig/UW_Campus_Mapping_Offline/IG_UW_CAMPUS_GS.png", "label": "UW_Campus_Mapping_Offline", "url": "UW_Campus_Mapping_Offline/IG_UW_CAMPUS_GS.html"},
 	],
 	"results_roben": [
 		{"thumb": "potree/results/results_roben/ats/ats.png", "label": "ATS", "url": "ats/ats.html"},
