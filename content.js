@@ -63,9 +63,9 @@ function includeFaroResults(){
 function includeMooseResults1(){
 	let resultCode = "";
 	resultCode += `
-		<a href="potree/results/results_faro/demo_01/demo_01.html" target="_blank" style="display: inline-block">
-			<div class="thumb2" style="background-image: url('potree/results/results_faro/demo_01/demo_01.png'); ">
-				<div class="thumb-label">Snowy Map</div>
+		<a href="potree/results/results_moose/Filtered/Colby_Filtered.html" target="_blank" style="display: inline-block">
+			<div class="thumb2" style="background-image: url('potree/results/results_moose/Filtered/Colby_Filtered.png'); ">
+				<div class="thumb-label">Filtered Map</div>
 			</div>
 		</a>
 		`;
@@ -75,8 +75,8 @@ function includeMooseResults1(){
 function includeMooseResults2(){
 		let resultCode = "";
 		resultCode += `
-			<a href="potree/results/results_faro/demo_01/demo_01.html" target="_blank" style="display: inline-block">
-				<div class="thumb2" style="background-image: url('potree/results/results_faro/demo_01/demo_01.png'); ">
+			<a href="potree/results/results_moose/Snowy/Colby_Snowy.html" target="_blank" style="display: inline-block">
+				<div class="thumb2" style="background-image: url('potree/results/results_moose/Snowy/Colby_Snowy.png'); ">
 					<div class="thumb-label">Filtered Map</div>
 				</div>
 			</a>
