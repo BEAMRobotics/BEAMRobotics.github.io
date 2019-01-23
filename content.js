@@ -83,3 +83,15 @@ function includeMooseResults2(){
 			`;
 		document.write(resultCode);
 }
+
+function includeMooseImage(){
+		let resultCode = "";
+		resultCode += `
+			<a href="https://www.autonomoose.net/" target="_blank" style="display: inline-block">
+				<div class="thumb2" style="background-image: url('images/Moose.jpg'); ">
+					<div class="thumb-label">The Autonomoose</div>
+				</div>
+			</a>
+			`;
+		document.write(resultCode);
+}
