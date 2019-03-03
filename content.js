@@ -1,15 +1,16 @@
 let settings = {
 	"results_ig": [
+		{"thumb": "potree/results/results_ig/UW_Structures_Lab/UW_Structures_Lab.png", "label": "UW Structures Lab", "url": "UW_Structures_Lab/UW_Structures_Lab.html"},
 		{"thumb": "potree/results/results_ig/UW_Campus_Mapping_Offline/IG_UW_CAMPUS_GS.png", "label": "UW Campus", "url": "UW_Campus_Mapping_Offline/IG_UW_CAMPUS_GS.html"},
 		{"thumb": "potree/results/results_ig/Conestogo_Bridge_Delams/conestogo_bridge_delams.png", "label": "Conestogo Bridge Delams", "url": "Conestogo_Bridge_Delams/conestogo_bridge_delams.html"},
 	],
 	"results_roben": [
-		{"thumb": "potree/results/results_roben/ats/ats.png", "label": "ATS", "url": "ats/ats.html"},
+		// {"thumb": "potree/results/results_roben/ats/ats.png", "label": "ATS", "url": "ats/ats.html"},
 		{"thumb": "potree/results/results_roben/fairway/fairway.jpg", "label": "Fairway Bridge", "url": "fairway/fairway.html"},
 
 	],
 	"results_faro": [
-		{"thumb": "potree/results/results_faro/ats_faro/ats_faro.png", "label": "ATS (Faro)", "url": "ats_faro/ats_faro.html"},
+		// {"thumb": "potree/results/results_faro/ats_faro/ats_faro.png", "label": "ATS (Faro)", "url": "ats_faro/ats_faro.html"},
 	]
 }
 
