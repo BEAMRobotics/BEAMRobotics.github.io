@@ -11,6 +11,7 @@ let settings = {
 	],
 	"results_faro": [
 		// {"thumb": "potree/results/results_faro/ats_faro/ats_faro.png", "label": "ATS (Faro)", "url": "ats_faro/ats_faro.html"},
+		{"thumb": "potree/results/results_faro/fairway_faro/fairway_faro.png", "label": "Fairway Bridge (Faro)", "url": "fairway_faro/fairway_faro.html"}
 	]
 }
 
