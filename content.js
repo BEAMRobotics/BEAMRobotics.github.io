@@ -1,6 +1,7 @@
 let settings = {
 	"results_ig": [
 		{"thumb": "potree/results/results_ig/Market_Square_Parking/IG_Market_Square_Parking.png", "label": "Market Square Parking", "url": "Market_Square_Parking/IG_Market_Square_Parking.html"},
+		{"thumb": "potree/results/results_ig/Market_Square_Parking/IG_Market_Square_Parking.png", "label": "UW Parking Garage", "url": "UW_Parking_Garage/UW_Parking_Garage.html"},
 		{"thumb": "potree/results/results_ig/UW_Structures_Lab/UW_Structures_Lab.png", "label": "UW Structures Lab", "url": "UW_Structures_Lab/UW_Structures_Lab.html"},
 		{"thumb": "potree/results/results_ig/UW_Campus_Mapping_Offline/IG_UW_CAMPUS_GS.png", "label": "UW Campus", "url": "UW_Campus_Mapping_Offline/IG_UW_CAMPUS_GS.html"},
 		{"thumb": "potree/results/results_ig/Conestogo_Bridge_Delams/conestogo_bridge_delams.png", "label": "Conestogo Bridge Delams", "url": "Conestogo_Bridge_Delams/conestogo_bridge_delams.html"},
