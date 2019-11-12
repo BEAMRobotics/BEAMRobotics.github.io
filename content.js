@@ -8,6 +8,7 @@ let settings = {
 	],
 	"results_roben": [
 		// {"thumb": "potree/results/results_roben/ats/ats.png", "label": "ATS", "url": "ats/ats.html"},
+		{"thumb": "potree/results/results_roben/uw_garage/roben_uw_garage.png", "label": "UW Parking Garage", "url": "uw_garage/roben_uw_garage.html"},
 		{"thumb": "potree/results/results_roben/market_square/roben_market_square.png", "label": "Market Square Parking", "url": "market_square/roben_market_square.html"},
 		{"thumb": "potree/results/results_roben/structures_lab/structures_lab.png", "label": "Structures Lab", "url": "structures_lab/structures_lab.html"},
 		{"thumb": "potree/results/results_roben/fairway/fairway.jpg", "label": "Fairway Bridge", "url": "fairway/fairway.html"}
