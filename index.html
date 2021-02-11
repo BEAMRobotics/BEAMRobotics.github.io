@@ -53,21 +53,19 @@
 
 		<div id="results_container">
 			<div id="ig_container">
-				<h3><strong>1. Inspector Gadget (IG) :</strong> this is our continuous scanning platform.
-						It continously performs localization and mapping as it drives around for
-					  fastest mapping results and best area coverage. This product is still in
-						early stages of development. We also have on-going work to automatically
-						detect/locate/quantify defects related to inspection (see Conestogo Bridge Delams
-						for results on automatic delamination detection)
+				<h3><strong>1. Inspector Gadget (IG) :</strong> IG is more focused on inspection. For localization, 
+					IG relies on a horizontal VLP16 lidar, IMU, and Fisheye SLAM camera. For mapping and inspection,
+					IG uses the upper sensor system which includes a vertical VLP16 lidar, one high resolution camera
+					for detecting defects, one fisheye camera for map colourization, and one infrared camera for 
+					detecting subsurface defects or any temperature gradients.
 				</h3>
 				<br><br>
 			</div>
 			<div id="roben_container">
-				<h3><strong>2. Robot Eng (RobEn) :</strong> this is our stop-and-go scanning solution. This robot
-						must stop to take scans (<10s/scan). This scanner is very rapid compared to
-						the Faro but not as quick as IG. The mapping and full colourization of the
-						map is done automatically within minutes of taking the scan. This product is
-						 in its final stages of development.
+				<h3><strong>2. Robot Eng (RobEn) :</strong> RobEn is more focused on rapid mapping and full coverage. 
+					For localization, RobEn has a horizontal VLP16 lidar, IMU, and Ladybug5+ spherical camera. For 
+					mapping, RobEn uses a vertically mounted rotating VLP16 which gets full 360 degree coverage once 
+					every second, and the spherical Ladybug5+ camera which gets full coverage at a high rate.
 				</h3>
 				<br><br>
 			</div>
