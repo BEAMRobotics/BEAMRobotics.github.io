@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Mobile mapping results">
+    <meta name="author" content="BEAM">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Beam Robotics | Maps</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="potree.css" rel="stylesheet">
+
+    <!-- Google Analytics - Attached to Nicks gmail -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139157422-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-139157422-1');
+    </script>
+
+</head>
+
+<body>
+
+    <script src="content.js"></script>
+
+    <div class="container">
+        <div class="jumbotron">
+
+            <h2>Beam Robotics IG Handle Dataset</h2>
+            <br><br>
+            <h3>Welcome to the IG Handle Public Dataset.
+                <br><br>
+            </h3>
+
+            <h4>Platform and Sensors</h4>
+            <br><br>
+            <div class="platform-container">
+                <div id="ig-handle-image">
+                    <img src="images/IGHandle.jpg" alt="IGHandle" /><br />
+                </div>
+                <div id="dataset-table" style="width: 60%;">
+                    <table>
+                        <tr>
+                            <th>Sensor Type</th>
+                            <th>Model</th>
+                            <th>Relevant Specifications</th>
+                        </tr>
+                        <tr>
+                            <td>Lidar</td>
+                            <td>Velodyne VLP16 Lite</td>
+                            <td>Vertical FOV: 30&deg; 300,000 points per second 100 m range</td>
+                        </tr>
+
+                        <tr>
+                            <td>Camera 1</td>
+                            <td>Flir BlackflyS</td>
+                            <td>3.2 MP resolution, RGB, 55fps, Fujinon Lens, 2.7mm focal length, 2/3 inch image circle,
+                                C
+                                mount, FOV: 185&deg; x 140&deg;</td>
+                        </tr>
+
+                        <tr>
+                            <td>Camera 2</td>
+                            <td>Flir BlackflyS</td>
+                            <td>12.3 MP resolution, RGB, 23fps, Flir Tamron Lens, 8mm focal length, 1/1.8 inch image
+                                circle,
+                                C mount, FOV: 50.8&deg; x 38.6&deg;</td>
+                        </tr>
+
+                        <tr>
+                            <td>IMU</td>
+                            <td>Xsens MTi-30</td>
+                            <td>Frequency: 400 Hz, Data types: xyz acceleration, xyz angular velocity, absolute heading,
+                                east-north-up orientation</td>
+                        </tr>
+                        <tr>
+                            <td>Micro-controller</td>
+                            <td>Teensy 3.6 </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br><br>
+
+            <h4>Available Data</h4>
+            <br><br>
+            <a
+                href="https://github.com/BEAMRobotics/beam_robotics/tree/master/calibration/results/inspector_gadget2/current">Calibration</a>
+            <br><br>
+
+            <table style="width: 60%">
+                <tr>
+                    <th>Dataset</th>
+                    <th>Date</th>
+                    <th>Bag</th>
+                </tr>
+                <tr>
+                    <td>Kitchener Parking Garage</td>
+                    <td>2021-10-07, 10:48</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>Kitchener Parking Garage</td>
+                    <td>2021-10-07, 11:01</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>Conestogo Bridge</td>
+                    <td>2021-10-07, 13:11</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>Conestogo Bridge</td>
+                    <td>2021-10-27, 16:28</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>Conestogo Bridge</td>
+                    <td>2021-10-27, 16:33</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>Conestogo Bridge</td>
+                    <td>2021-10-27, 16:21</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>RCH</td>
+                    <td>2021-10-08, 17:36</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>RCH</td>
+                    <td>2021-10-08, 17:39</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>Structures Lab</td>
+                    <td>2021-10-27, 14:15</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>Structures Lab</td>
+                    <td>2021-10-27, 14:22</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>Hydro Lab</td>
+                    <td>2021-10-20, 12:39</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>Hydro Lab</td>
+                    <td>2021-10-20, 12:48</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+                <tr>
+                    <td>E5SDC</td>
+                    <td>2021-10-21, 14:18</td>
+                    <td><a href="dataset.html">link</a></td>
+                </tr>
+            </table>
+
+            <h4>Scripts/Processing</h4>
+            <br><br>
+            todo
+            <br><br>
+
+
+            <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+            <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
