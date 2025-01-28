@@ -40,18 +40,26 @@
 		<h2>Beam Robotics | Map Viewer</h2>
 		<br><br>
 		<h3>Welcome to our online map viewer! Here you will find interacting maps of
-		pervious scans performed by Beam.
+		pervious scans performed by Beam as well as some of our open source datasets.
 		<br><br>
 		</h3>
 		<hr>
 		<h4>Platforms</h4>
 		<h3>
 		<br><br>
-		We have three scanning platforms:
+		We have four scanning platforms:
 		<br><br>
 		</h3>
 
-		<div id="results_container">
+		<div id="results_container"> 
+			<div id="ig_handle_container">
+				<h3><strong>4. Inspector Gadget Handle (IG Handle) :</strong> IG Handle is designed to be both a mobile 
+					hand scanning platform as well as capable of mounting onto a ground robot for autonomous scanning.
+					todo: ad all sensors  here
+					We have released data collected from the IG Handle <a href="dataset.html"><button>HERE</button></a>
+				</h3>
+				<br><br>
+			</div>
 			<div id="ig_container">
 				<h3><strong>1. Inspector Gadget (IG) :</strong> IG is more focused on inspection. For localization, 
 					IG relies on a horizontal VLP16 lidar, IMU, and Fisheye SLAM camera. For mapping and inspection,
@@ -82,6 +90,9 @@
 		</div>
 
 		<div id="results_container">
+			<div id="ig_handle_container">
+				<img src="images/IGHandle.jpg" alt="IGHandle" /><br />
+			</div>
 			<div id="ig_container">
 				<img src="images/InspectorGadget.jpg" alt="IG" /><br />
 			</div>

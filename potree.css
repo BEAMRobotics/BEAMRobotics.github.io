@@ -150,6 +150,12 @@ body{
 
 }
 
+.platform-container { 
+	display: flex; 
+	justify-content: left; 
+	margin: 20px; 
+} 
+
 .unhandled:hover{
 	border: 1px solid rgba(200, 200, 200, 1);
 	border-radius: 4px;
@@ -157,7 +163,7 @@ body{
 }
 
 a{
-	color: #555555;
+	color: #0078cd;
 }
 
 h1{
@@ -167,9 +173,16 @@ h1{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+#dataset-table{
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+}
+
 #results_container{
 	display: grid;
-	grid-template-columns: 30% 30% 30%;
+	grid-template-columns: 25% 25% 25% 25%;
 	grid-gap: 10px;
 	grid-template-rows: auto auto;
 
