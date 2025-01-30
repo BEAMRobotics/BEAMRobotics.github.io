@@ -1,5 +1,3 @@
-Point Cloud Viewer Link:
-
 https://beamrobotics.github.io/
 
 Instructions for adding point clouds:
